@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+#papis{
+    width: 100%;
+    height: 1200px;
+    background-image: linear-gradient( to top, black,#2c2c2c );
+}#block{
+    display: grid;
+    grid-template-areas: "t1 t2 t3 t4";
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #cdf;
+    color: #102;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1000;
+}
+.t{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif #102;
+    border: #000 solid 1px;
+    z-index: 100;
+}
+#t1{
+    grid-area: t1;
+    background-color: #03a;
+    color: #fff;
+}
+#t2{
+    grid-area: t2;
+    color: #000;
+}
+#t3{
+    grid-area: t3;
+    color: #000;
+}
+#t4{
+    grid-area: t4;
+    color: #000;
+}
+#t5{
+    grid-area: t5;
+    color: #000;
+}
+
+#banner{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border: 3px solid black;
+    background-image: linear-gradient( to top, navy,black );
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    -ms-flex-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 100px;
+   
+}
+#bl2{
+    display: grid;
+    grid-template-areas: "tx1 tx2 tx3 ";
+    width: 100%;
+    height: 50px;
+    background-color: #cdf;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    
+    top: 50px; 
+    z-index: 1000;
+}
+#tx1{
+    grid-area: tx1;
+    color: #000;
+}
+#tx2{
+    grid-area: tx2;
+    color: #000;
+}
+#tx3{
+    grid-area: tx3;
+    color: #000;
+}
+#spacer{
+    width: 100%;
+    height: 25px;
+    background-color: #000;
+    
+
+}
+#baixo{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "p txt"
+                         "p g"
+                        ;    
+}
+.p{
+    text-align: center;
+    font-style: normal;
+    color: #000;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 35px;
+}
+
+
+
+#txt{
+    display: flex;
+    background-color: #cdf;
+    border: solid 3px black;
+    grid-area: txt;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+#guia{
+    grid-area: g;
+    border: #000 3px solid;
+    background-color: whitesmoke;
+}
+.text{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+}
+
+#foot{
+    width: 100%;
+    height: 250px;
+    
+}
